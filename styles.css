@@ -8,12 +8,13 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: auto;
+    grid-template-columns: 1fr 0.5fr ;
     grid-template-rows: 1fr 3.4fr;
     gap: 0px 0px;
     grid-template-areas:
-        "header header header header"
-        "main main main main";
+        "header header "
+        "main main ";
 }
 
 .header {
@@ -65,7 +66,7 @@ img {
     line-height: 35px;
     font-size: 24px;
     font-weight: 400;
-    
+    margin: 0px;
 }
 
 .main {
