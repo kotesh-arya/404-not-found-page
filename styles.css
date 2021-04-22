@@ -30,8 +30,8 @@ body {
 }
 
 .header p {
-    margin-top: 60px;
-    margin-left: 77px;
+    margin-top: 70px;
+    margin-left: 43px;
     font-family: inconsolata;
     font-weight: 700;
     font-size: 24px;
@@ -40,13 +40,13 @@ body {
 }
 .card-contet {
     grid-area: card-content;
-    margin: 0px 100px 100px 100px;
+    margin: 60px 100px 100px -30px;
 
 }
 img {
     width: 400px;
     height: 400px;
-    margin: 67px 100px 100px 221px;
+    margin: 60px 100px 100px 44px;
 }
 
 .card-contet h1 {
@@ -76,6 +76,7 @@ img {
     display: flex;
     flex-direction: row;
     height: 100px;
+    margin-left: 200px;
 }
 
 button {
@@ -83,7 +84,7 @@ button {
     height: 68px;
     background: #333333;
     color: #ffffff;
-    margin:  0px 100px;
+    margin:  50px 100px;
 
 }
 
@@ -114,5 +115,19 @@ button {
     .card-content {
         width: 800px;
         margin: 0px 400px;
+    }
+    .header p {
+        margin-top: 20px;
+        margin-left: 43px;
+    }
+    img{
+        margin: 0px 100px 100px 44px;
+    }
+    .card-content{
+        margin: 0px 100px 100px -30px;
+
+    }
+    .main{
+        margin-left: 0px;
     }
 }
